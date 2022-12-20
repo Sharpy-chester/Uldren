@@ -1410,7 +1410,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 136616, guid: f7e586317327fe240bef5a82944f49c2, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Druid_01
+      value: InteractablePlayer
       objectReference: {fileID: 0}
     - target: {fileID: 482130, guid: f7e586317327fe240bef5a82944f49c2, type: 3}
       propertyPath: m_RootOrder
@@ -1483,8 +1483,13 @@ MonoBehaviour:
   - I really hope it does as I cant really be bothered to fix any bugs at the moment
   - Pleased with the code I wrote for this though. Even if it doesn't work and needs
     a bit of tweaking
-  choice1Lines: []
-  choice2Lines: []
+  choice1Lines:
+  - Kill her
+  - Hey, thats rude
+  - '*Dies*'
+  choice2Lines:
+  - Flirt with her
+  - '*Slaps you*'
 --- !u!114 &1733134960
 MonoBehaviour:
   m_ObjectHideFlags: 0
