@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cliff_D_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 7f57b0c643f528f4297b72348cab9faf,
+  m_Shader: {fileID: -6465566751694194690, guid: 5666065488ed57a4d9f76658a82b25c7,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
@@ -93,8 +93,8 @@ Material:
     - _SnowTiling: 7
     - __dirty: 0
     m_Colors:
-    - _GlobalColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
-    - _ObjectColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    - _GlobalColor: {r: 0.5882353, g: 0.5294118, b: 0.40784317, a: 1}
+    - _ObjectColor: {r: 0.86764705, g: 0.86764705, b: 0.86764705, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7056507137697444460
 MonoBehaviour:
