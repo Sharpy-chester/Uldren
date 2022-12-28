@@ -636,6 +636,11 @@ MonoBehaviour:
   colorMapResolution: 256
   layerSettings:
   - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 66176d9c7424a16489811004f9ea8171, type: 2}
+    modifierStack:
+    - {fileID: 1054013560}
+    - {fileID: 674524401}
+  - enabled: 1
     layer: {fileID: 8574412962073106934, guid: 1a80a17506b849a419d27e4950b2d726, type: 2}
     modifierStack:
     - {fileID: 314300745}
@@ -808,6 +813,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba43096d063f9e141bc66d23a6aad4b6, type: 3}
+--- !u!114 &674524401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: 190
+  minFalloff: 5
+  max: 2000
+  maxFalloff: 10
 --- !u!1001 &818020950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -877,6 +903,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ecca85cbe99874495e85667b0ef7b2, type: 3}
+--- !u!114 &1054013560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2562637f396e4c10acd3fa9926b53a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  label: Slope
+  blendMode: 0
+  opacity: 100
+  passIndex: 1
+  minMax: {x: 0, y: 10}
+  minFalloff: 10
+  maxFalloff: 10
 --- !u!1 &1125317683
 GameObject:
   m_ObjectHideFlags: 0
