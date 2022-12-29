@@ -1211,9 +1211,6 @@ MonoBehaviour:
   look: {x: 5, y: 5}
   jump: 0
   sprint: 0
-  interact: 0
-  one: 0
-  two: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -1348,7 +1345,8 @@ MonoBehaviour:
     type: 3}
   firePos: {fileID: 4121747139569798155}
   fireCooldown: 1
-  fireVelocity: 10
+  fireVelocity: 1000
+  maxLength: 10000
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,14 +2453,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338988566280778634}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.375, z: 0}
+  m_LocalRotation: {x: 0.15085699, y: -0, z: -0, w: 0.9885556}
+  m_LocalPosition: {x: 0, y: 1.78, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3893294197879345259}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 17.353, y: 0, z: 0}
 --- !u!1 &8345528668818648182
 GameObject:
   m_ObjectHideFlags: 0
