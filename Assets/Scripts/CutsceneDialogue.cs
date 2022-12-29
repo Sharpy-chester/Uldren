@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "CutsceneDialogue", menuName = "ScriptableObjects/CutsceneDialogue", order = 1)]
 public class CutsceneDialogue : ScriptableObject
 {
-    public string[] dialogue;
+    [TextArea] public string[] dialogue;
     public float[] timeUntilNextDialogue;
     public AudioClip[] voiceOvers;
-    //need to write the script that handles this
 }

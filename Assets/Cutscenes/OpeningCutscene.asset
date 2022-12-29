@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbe318fb1e96754e96f4aeae0141e37, type: 3}
+  m_Name: OpeningCutscene
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Uldren: I can''t wait to graduate and start showing off my fire magic skills.
+    I''ll be the best fire magician in the land, no doubt about it.'
+  - "Egron: Uldren, don't get ahead of yourself. We\u2019ve still got a long journey
+    ahead of us until we reach that point. Plus, you actually have to revise to be
+    able to graduate."
+  - 'Uldren: Oh, come on, Egron. You know I''m the best. And once I graduate, there
+    will be no stopping me. I''ll take on any challenge that comes my way.'
+  - 'Egron: I hope you''re right, Uldren. But I''m not sure I''m ready for the big
+    leagues. I''m still trying to figure out my place in the magical world.'
+  - 'Uldren: Don''t sell yourself short, Egron. You have a lot of potential. Just
+    believe in yourself and you can achieve anything you set your mind to.'
+  - "Egron: Let\u2019s hope you\u2019re right."
+  - "Uldren: Don\u2019t worry, I always am. I can't have my best friend holding me
+    back. We have to conquer the magical world together."
+  - "Egron: As long as you don\u2019t get yourself killed first."
+  - 'Uldren: What are you-'
+  - "Uldren: \u2026Did you hear that?"
+  - "Egron: Yeah\u2026 What was that\u2026"
+  - 'Uldren: Sounded like a-'
+  - "Uldren: Hang on Egron, I\u2019ll save you-"
+  - "Uldren: No matter what it takes\u2026"
+  timeUntilNextDialogue: []
+  voiceOvers: []
