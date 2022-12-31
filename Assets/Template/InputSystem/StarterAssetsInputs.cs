@@ -10,10 +10,6 @@ public class StarterAssetsInputs : MonoBehaviour
 	public Vector2 look;
 	public bool jump;
 	public bool sprint;
-	public bool interact;
-
-	public bool one;
-	public bool two;
 
 	[Header("Movement Settings")]
 	public bool analogMovement;
@@ -46,20 +42,6 @@ public class StarterAssetsInputs : MonoBehaviour
 		SprintInput(value.isPressed);
 	}
 
-	public void OnInteract(InputValue value)
-    {
-		InteractInput(value.isPressed);
-    }
-
-	public void OnOne(InputValue value)
-    {
-		OneInput(value.isPressed);
-    }
-
-	public void OnTwo(InputValue value)
-    {
-		TwoInput(value.isPressed);
-    }
 #endif
 
 
@@ -82,21 +64,6 @@ public class StarterAssetsInputs : MonoBehaviour
 	{
 		sprint = newSprintState;
 	}
-
-	public void InteractInput(bool newInteractState)
-    {
-		interact = newInteractState;
-    }
-
-	public void OneInput(bool newOneState)
-    {
-		one = newOneState;
-    }
-
-	public void TwoInput(bool newTwoState)
-    {
-		two = newTwoState;
-    }
 
 	private void OnApplicationFocus(bool hasFocus)
 	{
