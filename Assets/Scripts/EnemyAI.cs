@@ -42,6 +42,7 @@ public class EnemyAI : MonoBehaviour
                 if (distance < attackRange)
                 {
                     navMeshAgent.ResetPath();
+                    
                     Attack();
                 }
                 else if (distance < aggroRange)
