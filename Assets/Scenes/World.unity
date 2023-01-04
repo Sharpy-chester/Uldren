@@ -1115,7 +1115,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01
+      value: 'Counselor Dan '
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
@@ -1165,6 +1165,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4925a1a1bf1eff44696ea3c820cb5cf7, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: 'Counselor Dan '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1 &40043063
@@ -2002,20 +2007,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1419352148}
   - {fileID: 1155982706}
-  - {fileID: 352817746}
   - {fileID: 771621692}
-  - {fileID: 1102723749}
-  - {fileID: 652148182}
-  - {fileID: 1458423185}
-  - {fileID: 1143275938}
-  - {fileID: 1191448811}
-  - {fileID: 294402538}
-  - {fileID: 1789857444}
   - {fileID: 1459268353}
+  - {fileID: 652148182}
+  - {fileID: 1143275938}
+  - {fileID: 294402538}
+  - {fileID: 1419352148}
+  - {fileID: 352817746}
+  - {fileID: 1102723749}
+  - {fileID: 1458423185}
+  - {fileID: 1191448811}
+  - {fileID: 1789857444}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73212289
 GameObject:
@@ -2045,28 +2050,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1949584712}
   - {fileID: 655067774}
-  - {fileID: 1987163877}
   - {fileID: 415307997}
-  - {fileID: 1216563529}
   - {fileID: 2137110525}
-  - {fileID: 1292139332}
   - {fileID: 1967434463}
-  - {fileID: 91640941}
   - {fileID: 151484942}
-  - {fileID: 432289683}
   - {fileID: 1839442993}
-  - {fileID: 1722636804}
   - {fileID: 1715391931}
-  - {fileID: 754650372}
   - {fileID: 1178187674}
-  - {fileID: 89176183}
   - {fileID: 735849069}
-  - {fileID: 1002054216}
   - {fileID: 1778726385}
+  - {fileID: 1949584712}
+  - {fileID: 1987163877}
+  - {fileID: 1216563529}
+  - {fileID: 1292139332}
+  - {fileID: 91640941}
+  - {fileID: 432289683}
+  - {fileID: 1722636804}
+  - {fileID: 754650372}
+  - {fileID: 89176183}
+  - {fileID: 1002054216}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &73909105 stripped
 Transform:
@@ -2255,11 +2260,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (20)
+      value: Novice Penelope
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2305,6 +2310,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Penelope
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &89176183 stripped
@@ -2435,11 +2445,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (16)
+      value: Novice Julia
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2480,6 +2490,11 @@ PrefabInstance:
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Julia
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -3077,11 +3092,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (3)
+      value: Counselor Jessamine
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3127,6 +3142,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4925a1a1bf1eff44696ea3c820cb5cf7, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Counselor Jessamine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &106983015 stripped
@@ -4707,11 +4727,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (24)
+      value: Novice Henry
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4757,6 +4777,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Henry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &151484942 stripped
@@ -4774,11 +4799,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (13)
+      value: Counselor Ignatius
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4824,6 +4849,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4add5cf79c9f7c948b1335817870d812, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Counselor Ignatius
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &153333281 stripped
@@ -8851,11 +8881,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (18)
+      value: Adept Rowan
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8901,6 +8931,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 91e2878374a4a184aa285a72a4f938c9, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Rowan
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &294402538 stripped
@@ -9270,12 +9305,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2135726659}
   - {fileID: 1789008929}
   - {fileID: 2001188202}
+  - {fileID: 2135726659}
   - {fileID: 680303863}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &301392902
 PrefabInstance:
@@ -11350,11 +11385,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (7)
+      value: Adept Brooke
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11400,6 +11435,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9abd531dc805c984494c5ef16efaeff6, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Brooke
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &352817746 stripped
@@ -13230,11 +13270,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (21)
+      value: Novice Dylan
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13275,6 +13315,11 @@ PrefabInstance:
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Dylan
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -13949,11 +13994,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (17)
+      value: Novice Kira
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13999,6 +14044,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Kira
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &432289683 stripped
@@ -14792,11 +14842,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01
+      value: Master Eliza
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14841,7 +14891,7 @@ PrefabInstance:
     - target: {fileID: 9566230, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 13956bdd7ed5cd944874fe2bb4d07c04, type: 2}
     - target: {fileID: 9566230, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_WarningMessage
       value: 
@@ -14850,6 +14900,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a9a5d9bee1e50b64c805a29f9d393e3e, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Master Eliza
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!1001 &458432644
@@ -15463,11 +15518,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (2)
+      value: Master Jasper
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15513,6 +15568,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 572a863e6107f6041a5518e2ccb469fb, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Master Jasper
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1001 &475571868
@@ -17912,11 +17972,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (5)
+      value: Counselor Imogen
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17962,6 +18022,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f8e0063bde3c205408fe7ece69f2f617, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Counselor Imogen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &538910800 stripped
@@ -19911,12 +19976,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1055023983}
   - {fileID: 1017561927}
   - {fileID: 300847247}
   - {fileID: 2054585948}
   - {fileID: 69781188}
   - {fileID: 73212290}
+  - {fileID: 1055023983}
   m_Father: {fileID: 1949918277}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25639,11 +25704,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (16)
+      value: Adept Jasper
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25689,6 +25754,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94c294e096c783f4c8d934086b6ad063, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Jasper
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &652148182 stripped
@@ -25855,11 +25925,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (20)
+      value: Novice Andrew
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25900,6 +25970,11 @@ PrefabInstance:
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Andrew
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -29410,11 +29485,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (28)
+      value: Novice Oliver
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29460,6 +29535,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b3498282888feac4893e6ce9f1c6a4b4, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Oliver
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &735849069 stripped
@@ -29821,11 +29901,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (19)
+      value: Novice Olivia
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29871,6 +29951,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Olivia
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &754650372 stripped
@@ -30438,11 +30523,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (15)
+      value: Adept Ethan
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30488,6 +30573,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9abd531dc805c984494c5ef16efaeff6, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Isaac
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &771621692 stripped
@@ -36750,11 +36840,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (21)
+      value: Novice Hannah
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36800,6 +36890,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b3498282888feac4893e6ce9f1c6a4b4, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Hannah
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1002054216 stripped
@@ -37161,7 +37256,7 @@ Transform:
   m_Children:
   - {fileID: 1620861012}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1021229795
 GameObject:
@@ -37818,7 +37913,7 @@ Transform:
   - {fileID: 1853866294}
   - {fileID: 571374612}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1058374263
 PrefabInstance:
@@ -38595,11 +38690,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (8)
+      value: Adept Elizabeth
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38645,6 +38740,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9abd531dc805c984494c5ef16efaeff6, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Elizabeth
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1102723749 stripped
@@ -40105,11 +40205,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (17)
+      value: Adept Mason
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40155,6 +40255,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94c294e096c783f4c8d934086b6ad063, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Mason
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1143275938 stripped
@@ -40451,11 +40556,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (14)
+      value: Adept Christopher
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40501,6 +40606,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9abd531dc805c984494c5ef16efaeff6, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Christopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1155982706 stripped
@@ -41060,11 +41170,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (27)
+      value: Novice Nathaniel
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41110,6 +41220,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b3498282888feac4893e6ce9f1c6a4b4, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Nathaniel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1178187674 stripped
@@ -41429,11 +41544,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (10)
+      value: Adept Leah
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41479,6 +41594,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94c294e096c783f4c8d934086b6ad063, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Leah
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1191448811 stripped
@@ -42114,11 +42234,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (3)
+      value: Master Xander
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42164,6 +42284,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a9a5d9bee1e50b64c805a29f9d393e3e, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Master Xander
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1 &1201194752
@@ -42933,11 +43058,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (14)
+      value: Novice Faith
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42978,6 +43103,11 @@ PrefabInstance:
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Faith
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -44616,11 +44746,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (4)
+      value: Counselor Hazel
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44666,6 +44796,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f8e0063bde3c205408fe7ece69f2f617, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Counselor Hazel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1264768376 stripped
@@ -45338,11 +45473,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (15)
+      value: Novice Grace
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45383,6 +45518,11 @@ PrefabInstance:
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Grace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -49112,11 +49252,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (12)
+      value: Counselor Colton
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49162,6 +49302,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4add5cf79c9f7c948b1335817870d812, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Counselor Colton
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1403098193 stripped
@@ -49234,7 +49379,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (1)
+      value: Headmaster Morid
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
@@ -49284,6 +49429,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2016fbaa1e945cb4f807abf0a56b602e, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Headmaster Morid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1001 &1414850816
@@ -49368,11 +49518,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (6)
+      value: Adept Abigail
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49418,6 +49568,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9abd531dc805c984494c5ef16efaeff6, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Abigail
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1419352148 stripped
@@ -50120,11 +50275,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (9)
+      value: Adept Isabella
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50170,6 +50325,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94c294e096c783f4c8d934086b6ad063, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Isabella
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1458423185 stripped
@@ -50187,11 +50347,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (19)
+      value: Adept Isaac
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50237,6 +50397,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 91e2878374a4a184aa285a72a4f938c9, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Adept Isaac
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1459268353 stripped
@@ -54452,11 +54617,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (11)
+      value: Counselor Bennett
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54502,6 +54667,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f8e0063bde3c205408fe7ece69f2f617, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Counselor Bennett
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1596203158 stripped
@@ -57936,7 +58106,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (1)
+      value: Master Clarissa
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
@@ -57986,6 +58156,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 572a863e6107f6041a5518e2ccb469fb, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Master Clarissa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!1001 &1694626780
@@ -63588,11 +63763,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (26)
+      value: Novice Liam
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63638,6 +63813,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Liam
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1715391931 stripped
@@ -63899,11 +64079,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (18)
+      value: Novice Nora
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63949,6 +64129,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Nora
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1722636804 stripped
@@ -70367,11 +70552,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (29)
+      value: Novice Preston
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70417,6 +70602,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b3498282888feac4893e6ce9f1c6a4b4, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Preston
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1778726385 stripped
@@ -70944,11 +71134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (11)
+      value: Adept Molly
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70994,6 +71184,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94c294e096c783f4c8d934086b6ad063, type: 2}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Adept Molly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1789857444 stripped
@@ -72978,6 +73173,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95035460417453950, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &1835466931 stripped
@@ -73145,11 +73345,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (25)
+      value: Novice Kaiden
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73195,6 +73395,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Kaiden
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1839442993 stripped
@@ -74620,12 +74825,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1904505558}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1906919712 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5,
-    type: 3}
-  m_PrefabInstance: {fileID: 456568621}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1907249094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75933,11 +76132,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (12)
+      value: Novice Caroline
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -75978,6 +76177,11 @@ PrefabInstance:
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Caroline
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -76345,11 +76549,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (23)
+      value: Novice Graham
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -76395,6 +76599,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: aa02261243473d04fb2154b27a5f1316, type: 2}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Graham
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1967434463 stripped
@@ -76842,11 +77051,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 179454, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_Name
-      value: Character_Female_Witch_01 (13)
+      value: Novice Davina
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -76887,6 +77096,11 @@ PrefabInstance:
     - target: {fileID: 431210, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: name
+      value: Novice Davina
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -78736,14 +78950,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 504264983}
-  - {fileID: 106983015}
   - {fileID: 1596203158}
-  - {fileID: 1264768376}
   - {fileID: 1403098193}
-  - {fileID: 538910800}
   - {fileID: 153333281}
+  - {fileID: 106983015}
+  - {fileID: 1264768376}
+  - {fileID: 538910800}
   m_Father: {fileID: 610101285}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060314897
 GameObject:
@@ -85804,68 +86018,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 456568621}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2135726660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906919712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c0c3e70d587544f90d0e9c93bb2473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 609111344}
-  dialogueLines:
-  - 132
-  - 123
-  - 133
-  dialogueChoicesNeeded: 2
-  choice1Lines:
-  - q
-  - kk
-  Choice1LinesNeeded: 0
-  choice1aLines: []
-  choice1bLines: []
-  choice1cLines: []
-  choice2Lines:
-  - sd
-  - dd
-  Choice2LinesNeeded: 0
-  choice2aLines: []
-  choice2bLines: []
-  choice2cLines: []
-  choice3Lines: []
-  Choice3LinesNeeded: 0
-  choice3aLines: []
-  choice3bLines: []
-  choice3cLines: []
---- !u!114 &2135726661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906919712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8faa160b43496849b999bb04ae7d21d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &2135726663
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906919712}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.7711687, y: 3.5896873, z: 5.6376586}
-  m_Center: {x: -0.21275115, y: 1.2948437, z: 0.082705975}
 --- !u!1001 &2137110524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85875,11 +86027,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 193682, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_Name
-      value: Character_Male_Wizard_01 (22)
+      value: Novice Felix
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -85920,6 +86072,11 @@ PrefabInstance:
     - target: {fileID: 455556, guid: aea27ca7a35042c419065833e8daf224, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: name
+      value: Novice Felix
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
