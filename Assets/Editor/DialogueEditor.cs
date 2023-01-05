@@ -8,6 +8,8 @@ public class DialogueEditor : Editor
         serializedObject.Update();
 
         SerializedProperty displayTextProperty = serializedObject.FindProperty("displayText");
+        SerializedProperty displayNameProperty = serializedObject.FindProperty("displayName");
+        SerializedProperty dialogueNameProperty = serializedObject.FindProperty("dialogueName");
 
         SerializedProperty dialogueLinesProperty = serializedObject.FindProperty("dialogueLines");
         SerializedProperty dialogueChoicesNeededProperty = serializedObject.FindProperty("dialogueChoicesNeeded");
@@ -30,7 +32,9 @@ public class DialogueEditor : Editor
         SerializedProperty choice3bLinesProperty = serializedObject.FindProperty("choice3bLines");
         SerializedProperty choice3cLinesProperty = serializedObject.FindProperty("choice3cLines");
 
+        EditorGUILayout.PropertyField(dialogueNameProperty);
         EditorGUILayout.PropertyField(displayTextProperty);
+        EditorGUILayout.PropertyField(displayNameProperty);
         EditorGUILayout.PropertyField(dialogueLinesProperty, true);
         EditorGUILayout.PropertyField(dialogueChoicesNeededProperty);
 

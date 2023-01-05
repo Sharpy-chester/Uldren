@@ -9,8 +9,12 @@ public class Dialogue : MonoBehaviour
 {
     Interact interact;
     ThirdPersonController player;
+    CharacterName characterName;
 
     [SerializeField] TextMeshProUGUI displayText;
+    [SerializeField] TextMeshProUGUI displayName;
+
+    [SerializeField] string dialogueName;
 
     [SerializeField] string[] dialogueLines;
     [SerializeField] int dialogueChoicesNeeded = 0;
@@ -42,6 +46,7 @@ public class Dialogue : MonoBehaviour
 
         //Get the player GameObject
         player = FindObjectOfType<ThirdPersonController>();
+        characterName = GetComponent<CharacterName>();
     }
 
     void Update()
@@ -54,6 +59,13 @@ public class Dialogue : MonoBehaviour
     {
         displayText.transform.parent.gameObject.SetActive(true);
         player.enabled = false;
+
+        if (string.IsNullOrEmpty(dialogueName))
+        {
+            dialogueName = characterName.name;
+        }
+        displayName.text = dialogueName;
+
         StartCoroutine(ShowDialogue());
     }
 
