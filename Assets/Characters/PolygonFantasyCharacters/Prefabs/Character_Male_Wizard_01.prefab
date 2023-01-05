@@ -3900,6 +3900,7 @@ GameObject:
   - component: {fileID: 7378361559255863762}
   - component: {fileID: 8127204412752641088}
   - component: {fileID: 6853409093361021124}
+  - component: {fileID: 8008587689077607760}
   m_Layer: 0
   m_Name: Character_Male_Wizard_01
   m_TagString: Untagged
@@ -3996,7 +3997,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 0}
-  name: 
   dialogueLines: []
   dialogueChoicesNeeded: 0
   choice1Lines: []
@@ -4026,6 +4026,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8faa160b43496849b999bb04ae7d21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8008587689077607760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791eff037a3b6648a2d24889b5b870b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Counselor Colton
 --- !u!1 &193772
 GameObject:
   m_ObjectHideFlags: 0

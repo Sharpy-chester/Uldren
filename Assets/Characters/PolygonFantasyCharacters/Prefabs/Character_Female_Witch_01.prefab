@@ -3707,6 +3707,7 @@ GameObject:
   - component: {fileID: 7795979131375445273}
   - component: {fileID: 5436449309682192386}
   - component: {fileID: 9187247732318266820}
+  - component: {fileID: 1651801013898188070}
   m_Layer: 0
   m_Name: Character_Female_Witch_01
   m_TagString: Untagged
@@ -3803,7 +3804,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 0}
-  name: 
   dialogueLines: []
   dialogueChoicesNeeded: 0
   choice1Lines: []
@@ -3833,6 +3833,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8faa160b43496849b999bb04ae7d21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1651801013898188070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791eff037a3b6648a2d24889b5b870b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Master Eliza
 --- !u!1 &182000
 GameObject:
   m_ObjectHideFlags: 0

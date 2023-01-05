@@ -8,15 +8,9 @@ using UnityEngine.InputSystem;
 public class Dialogue : MonoBehaviour
 {
     Interact interact;
-    GameObject CharacterName;
-    TextMeshPro CharacterNameTMP;
-    Camera mainCamera;
-
     ThirdPersonController player;
 
     [SerializeField] TextMeshProUGUI displayText;
-
-    [SerializeField] string name;
 
     [SerializeField] string[] dialogueLines;
     [SerializeField] int dialogueChoicesNeeded = 0;
@@ -39,10 +33,6 @@ public class Dialogue : MonoBehaviour
     [SerializeField] string[] choice3bLines;
     [SerializeField] string[] choice3cLines;
 
-    private void Awake()
-    {
-        mainCamera = Camera.main;
-    }
 
     void Start()
     {
@@ -52,17 +42,11 @@ public class Dialogue : MonoBehaviour
 
         //Get the player GameObject
         player = FindObjectOfType<ThirdPersonController>();
-
-        CharacterName = transform.Find("CharacterName").gameObject;
-        CharacterNameTMP = CharacterName.GetComponent<TextMeshPro>();
-        CharacterNameTMP.text = name;
     }
 
     void Update()
     {
-        CharacterNameTMP.transform.LookAt(mainCamera.transform);
-        CharacterNameTMP.transform.localEulerAngles = new Vector3(0, CharacterNameTMP.transform.localEulerAngles.y, CharacterNameTMP.transform.localEulerAngles.z);
-        CharacterNameTMP.transform.localEulerAngles += new Vector3(0, 180, 0);
+
     }
 
 
