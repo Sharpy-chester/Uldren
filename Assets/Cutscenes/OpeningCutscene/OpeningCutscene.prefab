@@ -49,6 +49,12 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 2367086213094053916, guid: 35352c0a4f7defd4496bfb90941e645a, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 4025239907066645008, guid: 35352c0a4f7defd4496bfb90941e645a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6461291094120072017, guid: 35352c0a4f7defd4496bfb90941e645a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4262411090006629314, guid: 35352c0a4f7defd4496bfb90941e645a, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - aefb57bc228ab77409fea61660dbf665: {fileID: 0}
