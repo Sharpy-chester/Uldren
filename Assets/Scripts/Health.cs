@@ -35,6 +35,11 @@ public class Health : MonoBehaviour
             {
                 GetComponent<Animator>().SetTrigger("Hit");
             }
+            UpdateHealthUI healthUI = GetComponent<UpdateHealthUI>();
+            if (healthUI != null)
+            {
+                healthUI.UpdateHealthSlider(health / maxHealth);
+            }
         }
     }
 
@@ -53,5 +58,10 @@ public class Health : MonoBehaviour
     public void IncreaseHealth(float HPIncrease)
     {
         health += HPIncrease;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        CheckHealth();
     }
 }

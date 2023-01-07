@@ -29,6 +29,10 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        if (player == null)
+        {
+            return;
+        }
         lookPos = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
         Ray ray = new(lookPos, player.transform.position - lookPos);
         Debug.DrawLine(lookPos, player.transform.position, Color.green);
