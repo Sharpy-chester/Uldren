@@ -42,7 +42,7 @@ public class Dialogue : MonoBehaviour
     {
         //When the player is within the trigger and presses E, StartDialogue is called
         interact = GetComponent<Interact>();
-        interact.onInteract += StartDiglogue;
+        interact.onInteract += StartDialogue;
 
         //Get the player GameObject
         player = FindObjectOfType<ThirdPersonController>();
@@ -55,7 +55,7 @@ public class Dialogue : MonoBehaviour
     }
 
 
-    void StartDiglogue()
+    public void StartDialogue()
     {
         displayText.transform.parent.gameObject.SetActive(true);
         player.enabled = false;
