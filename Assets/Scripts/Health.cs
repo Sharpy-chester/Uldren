@@ -7,11 +7,13 @@ public class Health : MonoBehaviour
 {
     [SerializeField] float maxHealth = 10;
     float health = 10;
+    RespawnManager respawnManager;
 
 
     void Start()
     {
         health = maxHealth;
+        respawnManager = FindObjectOfType<RespawnManager>();
     }
 
     void CheckHealth()
@@ -27,6 +29,10 @@ public class Health : MonoBehaviour
                 GetComponent<Animator>().SetTrigger("Dead");
                 Destroy(GetComponent<BoxCollider>());
                 Destroy(this);
+            }
+            if (GetComponent<ThirdPersonController>())
+            {
+                respawnManager.Respawn();
             }
         }
         else
