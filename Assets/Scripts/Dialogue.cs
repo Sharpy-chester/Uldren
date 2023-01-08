@@ -90,12 +90,23 @@ public class Dialogue : MonoBehaviour
         }
 
         // Show the branching choices
-        displayText.text = "Choice 1: " + choice1Lines[0] + "\nChoice 2: " + choice2Lines[0];
+        if (dialogueChoicesNeeded == 1)
+        {
+            displayText.text = "Choice 1: " + choice1Lines[0];
+        }
+        else if (dialogueChoicesNeeded == 2)
+        {
+            displayText.text = "Choice 1: " + choice1Lines[0] + "\nChoice 2: " + choice2Lines[0];
+        }
+        else if (dialogueChoicesNeeded == 3)
+        {
+            displayText.text = "Choice 1: " + choice1Lines[0] + "\nChoice 2: " + choice2Lines[0] + "\nChoice 3: " + choice3Lines[0];
+        }
 
         yield return new WaitForSeconds(1);
 
         // Wait for the player to make a choice
-        yield return new WaitUntil(() => Keyboard.current.digit1Key.wasPressedThisFrame || Keyboard.current.digit2Key.isPressed);
+        yield return new WaitUntil(() => Keyboard.current.digit1Key.isPressed || Keyboard.current.digit2Key.isPressed || Keyboard.current.digit3Key.isPressed);
 
         // Check which choice the player made
         if (Keyboard.current.digit1Key.isPressed && dialogueChoicesNeeded >= 1)
@@ -133,6 +144,25 @@ public class Dialogue : MonoBehaviour
             yield break;
         }
 
+        // Show the branching choices
+        if (Choice1LinesNeeded == 1)
+        {
+            displayText.text = "Choice 1: " + choice1aLines[0];
+        }
+        else if (Choice1LinesNeeded == 2)
+        {
+            displayText.text = "Choice 1: " + choice1aLines[0] + "\nChoice 2: " + choice1bLines[0];
+        }
+        else if (Choice1LinesNeeded == 3)
+        {
+            displayText.text = "Choice 1: " + choice1aLines[0] + "\nChoice 2: " + choice1bLines[0] + "\nChoice 3: " + choice1cLines[0];
+        }
+
+        yield return new WaitForSeconds(1);
+
+        // Wait for the player to make a choice
+        yield return new WaitUntil(() => Keyboard.current.digit1Key.isPressed || Keyboard.current.digit2Key.isPressed || Keyboard.current.digit3Key.isPressed);
+
         // Check which choice the player made
         if (Keyboard.current.digit1Key.isPressed && Choice1LinesNeeded >= 1)
         {
@@ -146,7 +176,6 @@ public class Dialogue : MonoBehaviour
         {
             StartCoroutine(ShowChoice1cLines());
         }
-        StopDialogue();
     }
 
     #region Secondary Choices 1
@@ -221,6 +250,25 @@ public class Dialogue : MonoBehaviour
             yield break;
         }
 
+        // Show the branching choices
+        if (Choice2LinesNeeded == 1)
+        {
+            displayText.text = "Choice 1: " + choice2aLines[0];
+        }
+        else if (Choice2LinesNeeded == 2)
+        {
+            displayText.text = "Choice 1: " + choice2aLines[0] + "\nChoice 2: " + choice2bLines[0];
+        }
+        else if (Choice2LinesNeeded == 3)
+        {
+            displayText.text = "Choice 1: " + choice2aLines[0] + "\nChoice 2: " + choice2bLines[0] + "\nChoice 3: " + choice2cLines[0];
+        }
+
+        yield return new WaitForSeconds(1);
+
+        // Wait for the player to make a choice
+        yield return new WaitUntil(() => Keyboard.current.digit1Key.isPressed || Keyboard.current.digit2Key.isPressed || Keyboard.current.digit3Key.isPressed);
+
         // Check which choice the player made
         if (Keyboard.current.digit1Key.isPressed && Choice2LinesNeeded >= 1)
         {
@@ -234,7 +282,7 @@ public class Dialogue : MonoBehaviour
         {
             StartCoroutine(ShowChoice2cLines());
         }
-        StopDialogue();
+
     }
 
     #region Secondary Choices 2
@@ -309,6 +357,25 @@ public class Dialogue : MonoBehaviour
             yield break;
         }
 
+        // Show the branching choices
+        if (Choice3LinesNeeded == 1)
+        {
+            displayText.text = "Choice 1: " + choice3aLines[0];
+        }
+        else if (Choice3LinesNeeded == 2)
+        {
+            displayText.text = "Choice 1: " + choice3aLines[0] + "\nChoice 2: " + choice3bLines[0];
+        }
+        else if (Choice3LinesNeeded == 3)
+        {
+            displayText.text = "Choice 1: " + choice3aLines[0] + "\nChoice 2: " + choice3bLines[0] + "\nChoice 3: " + choice3cLines[0];
+        }
+
+        yield return new WaitForSeconds(1);
+
+        // Wait for the player to make a choice
+        yield return new WaitUntil(() => Keyboard.current.digit1Key.isPressed || Keyboard.current.digit2Key.isPressed || Keyboard.current.digit3Key.isPressed);
+
         // Check which choice the player made
         if (Keyboard.current.digit1Key.isPressed && Choice3LinesNeeded >= 1)
         {
@@ -322,7 +389,6 @@ public class Dialogue : MonoBehaviour
         {
             StartCoroutine(ShowChoice3cLines());
         }
-        StopDialogue();
     }
 
     #region Secondary Choices 3

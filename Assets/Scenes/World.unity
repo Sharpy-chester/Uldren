@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1185,6 +1185,215 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'What are you doing up here alone? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Counsellor Dan: I was outcasted by a powerful Dark Mage Kostas that
+        cursed me for life and now I have to guard the entrance to the valley. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: 'Tell me about what lies ahead of me. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Counsellor Dan: There are 2 ways you can consider to continue your
+        journey. There is an Orc Village you can pass or there you can go through
+        the Troll Village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: 'I need to go and save my friend! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: 'Tell me about the Orc Village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: 'Counsellor Dan: The orcs in that village are known for their strength
+        and ferocity in battle. They value loyalty and honour, and they have a deep
+        respect for their chief. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[2]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will cut off your head. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[3]
+      value: 'Uldren: What about the Troll Village? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[4]
+      value: 'Counsellor Dan: The troll village is a bit of a mystery. They don''t
+        often interact with outsiders and keep their own counsel. But they are known
+        to be formidable foes in battle. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[5]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will hang you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: 'Tell me about the Troll Village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Counsellor Dan: The troll village is a bit of a mystery. They don''t
+        often interact with outsiders and keep their own counsel. But they are known
+        to be formidable foes in battle. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[2]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will hang you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[3]
+      value: 'Uldren: What about the Orc Village? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[4]
+      value: 'Counsellor Dan: The orcs in that village are known for their strength
+        and ferocity in battle. They value loyalty and honour, and they have a deep
+        respect for their chief.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[5]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will cut off your head. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: "Can\u2019t I go around? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Counsellor Dan: Unfortunately no, the mountains are too high to climb,
+        so the only way to continue your journey is passing through one of the villages. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[2]
+      value: 'Uldren: Okay , tell me about the Orc Village then. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[3]
+      value: 'Counsellor Dan: The orcs in that village are known for their strength
+        and ferocity in battle. They value loyalty and honour, and they have a deep
+        respect for their chief. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[4]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will cut off your head. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[5]
+      value: 'Uldren: What about the Troll Village? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[6]
+      value: 'Counsellor Dan: The troll village is a bit of a mystery. They don''t
+        often interact with outsiders and keep their own counsel. But they are known
+        to be formidable foes in battle. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[7]
+      value: 'Counsellor Dan: You will have to fight their chief to get through the
+        village, and If you lose they will hang you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Counsellor Dan: What is a sorcerer doing all the way up here?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "Uldren: I\u2019m on a mission to save my friend who was taken by the
+        Horned Beast!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: "Counsellor Dan: That doesn\u2019t sound safe, but since you came all
+        the way up here. How can I help you?"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1 &40043063
@@ -2392,7 +2601,7 @@ Transform:
   - {fileID: 1045725052}
   - {fileID: 102031252}
   m_Father: {fileID: 1949918277}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &90879255
 PrefabInstance:
@@ -3131,6 +3340,28 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Lug: I have no patience for humans. State your business or leave.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I could destroy you with my powerful magic, but I have no time
+        to waste.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: "Lug: A wise decision, outsider. It is not wise to test the might of
+        the green orcs.\t"
+      objectReference: {fileID: 0}
     - target: {fileID: 4166014227941616743, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
       propertyPath: name
@@ -3230,6 +3461,107 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Counsellor Jessamine & Counsellor Hazel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: Choice1LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: "I\u2019m looking for directions. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Counsellor Jessamine: Where do you need to go? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: 'Thanks, but I''ll be on my way. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[1]
+      value: 'Counsellor Hazel: We are not sure, we have never been outside of this
+        valley. Try asking the Master Mages. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[0]
+      value: 'Have you seen Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[1]
+      value: 'Counsellor Jessamine: He was somewhere around his house in the middle
+        of the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[0]
+      value: 'Which way is it to the Druid Sisters? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[1]
+      value: 'Counsellor Hazel: Head to the back of the village and follow the path
+        to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Counsellor Jessamine: I''ve learned so much from the mages I''ve counselled
+        over the years. It''s always a learning experience for both me and them. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Counsellor Hazel: Absolutely. Every mage is unique and has their own
+        perspective and experiences to share. It''s always enlightening to work with
+        them. '
       objectReference: {fileID: 0}
     - target: {fileID: 7795979131375445273, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
@@ -5018,6 +5350,106 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Counsellor Ignatius & Counsellor Imogen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: Choice1LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: "I\u2019m looking for directions. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Counsellor Ivana: Where do you need to go? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: 'Thanks, but I''ll be on my way. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[1]
+      value: 'Counsellor Ignatius: We are not sure, we have never been outside of
+        this valley. Try asking the Master Mages. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[0]
+      value: 'Have you seen Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[1]
+      value: 'Counsellor Ivana: He was somewhere around his house in the middle of
+        the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[0]
+      value: 'Which way is it to the Druid Sisters? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[1]
+      value: 'Counsellor Ignatius: Head to the back of the village and follow the
+        path to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Counsellor Ignatius: I''ve seen so many mages make the same mistakes
+        when it comes to magic, and I always try to help them avoid those pitfalls. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Counsellor Ivana: It''s important to learn from others'' mistakes as
+        well as your own. We all have something to learn from each other. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -7122,6 +7554,27 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Maugog & Rorgoth
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Maugog: What''s your business here, human?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Rorgoth: You''re not welcome in our territory.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I''m the only one who can save Egron and I won''t let them
+        down. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
@@ -13593,6 +14046,28 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Novice Dylan & Novice Faith
       objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Dylan: I''m still trying to get the hang of this magic stuff. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Novice Faith: Me too, but I''m determined to keep practising until
+        I get it right.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I have other responsibilities that I need to take care of,
+        so I have to leave. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &415307997 stripped
@@ -15218,6 +15693,117 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'Who are you? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Master Eliza: I''m Eliza, a Master tier mage specialising in healing
+        magic. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: "I\u2019m looking for directions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Master Eliza: Sure, I''m happy to help. What are you looking for so
+        I can give you the best directions possible? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: Thanks, but I'll be on my way.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: 'Master Eliza: Go to the left end of the beach and follow the path through
+        the mountains. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: 'Where can I find Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Master Eliza: He was somewhere around his house in the middle of the
+        village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: Which way is it to the Druid Sisters?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Master Eliza: Head to the back of the village and follow the path to
+        the forest.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Master Eliza: Hello, it''s nice to see you. Is there something specific
+        you need help with?" '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!1001 &458432644
@@ -15901,6 +16487,116 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'Who are you? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Master Jasper: I am Jasper, a Master tier mage specialising in divination
+        magic. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: "I\u2019m looking for directions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Master Jasper: Of course, where are you looking to go? I''d be happy
+        to help you find your way. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: Thanks, but I'll be on my way.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: 'Master Jasper: Go to the left end of the beach and follow the path
+        through the mountains. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: Where can I find Headmaster Morid?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Master Jasper: He was somewhere around his house in the middle of the
+        village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: Which way is it to the Druid Sisters?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Master Jasper: Head to the back of the village and follow the path
+        to the forest.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Master Jasper: Ah, hello there. How can I help you today?'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1001 &475571868
@@ -16897,7 +17593,27 @@ PrefabInstance:
     - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
       propertyPath: dialogueName
-      value: Gorg & Norg
+      value: Orc Guards
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Gorg: We will be watching you, outsider.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Norg: Do not return unless you wish to meet your demise.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: My friend needs me!'
       objectReference: {fileID: 0}
     - target: {fileID: 2861645610179135510, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
@@ -20112,7 +20828,7 @@ Transform:
   - {fileID: 1598413620}
   - {fileID: 1533402963}
   m_Father: {fileID: 1949918277}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607553959
 GameObject:
@@ -20251,10 +20967,10 @@ RectTransform:
   m_Father: {fileID: 1958797009}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0213, y: -1.0214}
-  m_SizeDelta: {x: 985.8607, y: 112.6064}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.66200006}
+  m_AnchoredPosition: {x: -8.929321, y: 30.21402}
+  m_SizeDelta: {x: -125.3887, y: -3.5440006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &609111344
 MonoBehaviour:
@@ -20306,9 +21022,9 @@ MonoBehaviour:
   m_fontSize: 26.85
   m_fontSizeBase: 26.85
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 36
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -20339,7 +21055,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 28.2146, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26214,6 +26930,29 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Adept Jasper & Adept Elizabeth
       objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Jasper: I''ve found that it''s important to stay focused and
+        dedicated to your studies as a mage.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Adept Elizabeth: Absolutely. As an Adept mage, I''ve learned that practice
+        and persistence are key to improving your skills.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: Egron''s life is on the line and I won''t waste any more time
+        here. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &652148182 stripped
@@ -26485,6 +27224,40 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Group of Novice mages
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Andrew: I''m still a novice, but I''m determined to master the
+        art of magic.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Novice Julia: Same here. I''m committed to putting in the work and
+        becoming the best mage I can be.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Novice Henry: I know what you mean. It takes a lot of hard work and
+        dedication to become a great mage.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Novice Kira: Absolutely. But it''s worth it in the end.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[4]
+      value: 'Uldren: I have other responsibilities that I need to take care of,
+        so I have to go. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -27668,6 +28441,74 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: Too bad, time to fight!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: 'Okay I will leave you be and check the Troll Village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: "Kog the conqueror: Who are you? Are you here to hurt me? I didn\u2019t
+        do anything wrong! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: The guards sent me to you, I need to pass through the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Kog the conqueror: I don''t really want to fight you, I''m not sure
+        if I''m even capable of it. But I guess tradition is tradition. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Kog the conqueror: To be honest, I never wanted to be chief. I''m not
+        sure how it even happened. A while ago I was playing with rocks and I threw
+        one really far into the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[4]
+      value: 'Kog the conqueror: When I went to look for it, I found a giant beast
+        lying on the ground with a smashed skull. It turns out that the beast had
+        been terrorising our village for years. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[5]
+      value: "Kog the conqueror: All the orcs were so grateful, they gathered around
+        me and made me their chief. But I never asked for it, I just want to play
+        with rocks\u2026"
+      objectReference: {fileID: 0}
     - target: {fileID: 4166014227941616743, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
       propertyPath: name
@@ -30188,6 +31029,29 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Novice Oliver & Novice Preston
       objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Oliver: I''m still a novice, but I''m determined to master the
+        art of magic.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Novice Preston: Same here. I''m committed to putting in the work and
+        becoming the best mage I can be. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I can''t stand around chatting when I have more important things
+        to do. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &735849069 stripped
@@ -31284,6 +32148,29 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Adept Brooke & Adept Ethan
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Brooke: I''ve learned that it''s important to always be willing
+        to ask for help or seek guidance from more experienced mages.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Adept Ethan: I agree. As an Adept mage, I''ve found that staying open
+        to new ideas and techniques has helped me to improve my skills.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I have more important matters to attend to than wasting time
+        here. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -32723,6 +33610,26 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Troll Guards
       objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Hargax: We will be watching you, outsider.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Korgath: Do not return unless you wish to meet your demise.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: My friend needs me!'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &818833736 stripped
@@ -33292,6 +34199,47 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: Try me then!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: I think I will go through the Orc Village.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Emperor Malak: I''ll tear you limb from limb, outsider.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Emperor Malak:I''ll enjoy watching the light fade from your eyes as
+        I rip you apart. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &854158286 stripped
@@ -37695,18 +38643,112 @@ PrefabInstance:
       objectReference: {fileID: 609111344}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
       propertyPath: dialogueChoicesNeeded
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
-      propertyPath: dialogueLines.Array.size
+      propertyPath: choice1Lines.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'What happened to you? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: "Counsellor Hannah: I had a little incident with a new spell I was learning
+        today. It should wear off in a few days. Hopefully\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: "I\u2019m looking for directions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Counsellor Hannah: Where do you need to go? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: 'Thanks, but I''ll be on my way '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: "Counsellor Hannah: I\u2019m not sure, I\u2019ve never been outside
+        of this valley. Try asking the Master Mages. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: 'Have you seen Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Counsellor Hannah: He was somewhere around his house in the middle
+        of the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: 'Which way is it to the Druid Sisters? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Counsellor Hannah: Head to the back of the village and follow the path
+        to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 
+      value: 'Counsellor Hannah: Stop staring at me like that, do you have no manners? '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -41141,6 +42183,29 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Adept Mason & Adept Rowan
       objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Mason: I''ve been studying the ancient texts on time magic. It''s
+        fascinating but also dangerous.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Adept Rowan: Time magic is always risky. You have to be careful not
+        to disrupt the natural flow of time.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I''m the only one who can save Egron and I won''t let them
+        down. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1143275938 stripped
@@ -41531,6 +42596,28 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Adept Christopher & Adept Abigail
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Christopher: I specialise in divination magic, and I''ve found
+        that practice and dedication are key to improving my skills.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Adept Abigail: I focus on defensive spells and protective magic, and
+        I always try to stay open to learning new techniques.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I can''t stand around chatting when Egron needs my help. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -42248,6 +43335,34 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Group of Novice mages
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Nathaniel: I''m still trying to get the hang of this magic stuff.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Novice Penelope: Me too, but I''m determined to keep practising until
+        I get it right.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Novice Olivia: I know what you mean. There''s so much to learn, it
+        can be overwhelming at times.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Uldren: I have other responsibilities that I need to take care of,
+        so I have to go. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -43351,6 +44466,116 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: Who are you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Master Xander: I''m Xander, a Master tier mage specialising in offensive
+        spells and combat magic. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: "I\u2019m looking for directions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Master Xander: Fine, but I''m not going to waste my time looking for
+        something if I don''t know what it is. What are you looking for?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: Thanks, but I'll be on my way.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: How do I get out of this valley?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: 'Master Xander: Go to the left end of the beach and follow the path
+        through the mountains. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: Where can I find Headmaster Morid?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Master Xander: He was somewhere around his house in the middle of the
+        village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: Which way is it to the Druid Sisters?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Master Xander: Head to the back of the village and follow the path
+        to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Master Xander: What do you want? I''m a busy man, so make it quick.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!1 &1201194752
@@ -47573,6 +48798,21 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Thorgoth: I''ll crush you with my bare hands.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "Uldren: Egron's in trouble and I won't rest until he\u2019s safe."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &1325634433 stripped
@@ -50678,13 +51918,79 @@ PrefabInstance:
       objectReference: {fileID: 609111344}
     - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
         type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
         type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: "I\u2019ve lost my powers and can\u2019t seem to cast any spells anymore "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: "Headmaster Morid: I can quickly teach you a simple fire spell. I\u2019m
+        not really an expert on fire magic though so it\u2019s fairly primitive.
+        Here\u2019s the book that will help you cast it."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[2]
+      value: 'Uldren: Where could I find the Horned Beast that took Egron?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[3]
+      value: "Headmaster Morid: I doubt there's much stopping you, so I\u2019ll tell
+        you what I know. He is often sighted in the mountains which is why it\u2019s
+        off limits to you students. I\u2019d stay away if I were you though. It\u2019s
+        extremely dangerous and even I would struggle against it. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: Where could I find the Horned Beast that took Egron?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: "Headmaster Morid: I doubt there's much stopping you, so I\u2019ll tell
+        you what I know. He is often sighted in the mountains which is why it\u2019s
+        off limits to you students. I\u2019d stay away if I were you though. It\u2019s
+        extremely dangerous and even I would struggle against it. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[2]
+      value: "Uldren: I\u2019ve lost my powers and can\u2019t seem to cast any spells
+        anymore "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[3]
+      value: "Headmaster Morid: I can quickly teach you a simple fire spell. I\u2019m
+        not really an expert on fire magic though so it\u2019s fairly primitive.
+        Here\u2019s the book that will help you cast it."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: test
+      value: "Headmaster Morid: My goodness, you\u2019ve finally woken up."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -51628,6 +52934,35 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Group of mages
       objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Nora: I''m still learning the basics of magic, but I''m determined
+        to become an adept mage one day.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Adept Isabella: We all had to start somewhere. Keep working hard and
+        you''ll get there. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Adept Leah: It takes time and dedication to master magic, but it''s
+        worth it in the end.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Uldren: I can''t stand around here when I have other commitments to
+        attend to. '
+      objectReference: {fileID: 0}
     - target: {fileID: 7795979131375445273, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: m_Size.x
@@ -51735,6 +53070,23 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Isaac: I''ve had my share of magical mishaps, but I''ve learned
+        from my mistakes and become a better mage because of them. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I have more important matters to attend to, like rescuing Egron
+        from danger. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1459268353 stripped
@@ -56079,6 +57431,106 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Counsellor Bennett & Counsellor Colton
       objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: Choice1LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: "I\u2019m looking for directions. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Counsellor Bennett: Where do you need to go? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: 'Thanks, but I''ll be on my way. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1aLines.Array.data[1]
+      value: 'Counsellor Colton: We are not sure, we have never been outside of this
+        valley. Try asking the Master Mages. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[0]
+      value: 'Have you seen Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1bLines.Array.data[1]
+      value: 'Counsellor Bennett: He was somewhere around his house in the middle
+        of the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[0]
+      value: 'Which way is it to the Druid Sisters? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: choice1cLines.Array.data[1]
+      value: 'Counsellor Colton: Head to the back of the village and follow the path
+        to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Counsellor Bennett: I''ve been helping novice mages with their magical
+        struggles for years, and it''s always rewarding to see them grow and succeed. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Counsellor Colton: I agree. There''s nothing more satisfying than being
+        able to guide and mentor others on their magical journey. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1596203158 stripped
@@ -58241,10 +59693,10 @@ RectTransform:
   m_Father: {fileID: 1958797009}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 381.28076, y: -84.62158}
-  m_SizeDelta: {x: 655.0355, y: 100.1878}
+  m_AnchorMin: {x: 0, y: 0.739}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -9.079956, y: -17.042599}
+  m_SizeDelta: {x: -125.7, y: -34.9697}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649198320
 MonoBehaviour:
@@ -58293,10 +59745,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 53.65
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -59676,7 +61128,64 @@ PrefabInstance:
     - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
       propertyPath: dialogueName
-      value: Barg & Farg
+      value: Orc Guards
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'Move, I have no time. I just need to pass through the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: "Barg: It doesn\u2019t work like that, human.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[2]
+      value: 'Farg: Find our chief in the middle of the village and he will deal
+        with you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[3]
+      value: 'Barg: We have no time for you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: I will try my luck elsewhere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Barg: What do you want, human?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Farg: You have no business in our village. Turn back now or face the
+        consequences.'
       objectReference: {fileID: 0}
     - target: {fileID: 2861645610179135510, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
@@ -59793,6 +61302,117 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: Choice2LinesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: 'Who are you? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Master Clarissa: I am Clarissa, a Master tier mage specialising in
+        illusion magic. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: "I\u2019m looking for directions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[1]
+      value: 'Master Clarissa: I''m happy to help, but I''ll need to know what you''re
+        looking for first. Can you tell me more about your destination? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice3Lines.Array.data[0]
+      value: 'Thanks, but I''ll be on my way. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[0]
+      value: 'How do I get out of this valley? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2aLines.Array.data[1]
+      value: 'Master Clarissa: Go to the left end of the beach and follow the path
+        through the mountains. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[0]
+      value: 'Have you seen Headmaster Morid? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2bLines.Array.data[1]
+      value: 'Master Clarissa: He was somewhere around his house in the middle of
+        the village. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[0]
+      value: 'Which way is it to the Druid Sisters? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: choice2cLines.Array.data[1]
+      value: 'Master Clarissa: Head to the back of the village and follow the path
+        to the forest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Master Clarissa: Shouldn''t you be studying? It takes a lot of hard
+        work and dedication to reach the Master tier. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!1001 &1694626780
@@ -65465,6 +67085,23 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Liam: I may not be an expert yet, but I''m determined to become
+        one.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I have more important matters to attend to than staying here
+        and chatting. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1715391931 stripped
@@ -72959,6 +74596,22 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Adept Molly: I believe that with dedication and hard work, anyone can
+        become a skilled mage. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I have more pressing matters to attend to than staying here. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1789857444 stripped
@@ -73679,6 +75332,58 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: Why are you blue?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: 'Gobblefunk: I got sad some time ago, and went for a walk and I stumbled
+        upon a mage in a blue robe. He wanted me to complete some survey for his
+        research, but I politely declined. He got furious and turned me blue.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[2]
+      value: "Uldren: I\u2019m sorry to hear that."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[3]
+      value: 'Gobblefunk: You better do his survey when he asks you to!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: I have more important business to attend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334139027821926700, guid: 0d42bc61d684259409d481c6f5dd5d5c,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Gobblefunk: You are not welcome here. Leave now or face the consequences.'
       objectReference: {fileID: 0}
     - target: {fileID: 4166014227941616743, guid: 0d42bc61d684259409d481c6f5dd5d5c,
         type: 3}
@@ -75160,6 +76865,62 @@ PrefabInstance:
       propertyPath: dialogueName
       value: Troll Guards
       objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueChoicesNeeded
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice2Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[0]
+      value: Move, I have no time. I just need to pass through the village.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[1]
+      value: "Gruumsh: It doesn\u2019t work like that, human. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[2]
+      value: 'Hrugen: Find our chief in the middle of the village and he will deal
+        with you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice1Lines.Array.data[3]
+      value: 'Gruumsh: We have no time for you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: choice2Lines.Array.data[0]
+      value: I will try my luck elsewhere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Gruumsh: Why are you here, human?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Hrugen: You better have a good reason.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &1835466931 stripped
@@ -75397,6 +77158,21 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Kaiden: There''s so much to learn, but I''m up for the challenge.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I won''t let Egron down. I have to go save them now. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
 --- !u!4 &1839442993 stripped
@@ -75841,7 +77617,14 @@ MonoBehaviour:
   displayText: {fileID: 609111344}
   displayName: {fileID: 1649198320}
   dialogueName: Group of Sorcerers
-  dialogueLines: []
+  dialogueLines:
+  - 'Aaron:  The energy of this tree is incredible. It''s no wonder it''s revered
+    in the village.'
+  - 'Noah: I''ve heard that the druid sisters use its magic to make their potions.
+    Can you imagine the strength and power that adds to their brews?'
+  - 'Christopher: I can''t wait to try one of their potions myself. I''ve heard they
+    have some truly unique and powerful effects.'
+  - 'Uldren: I won''t let Egron down. I have to go save them now. '
   dialogueChoicesNeeded: 0
   choice1Lines: []
   Choice1LinesNeeded: 0
@@ -76540,6 +78323,22 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Vorgon: I''m not afraid of you, human.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906647520406172402, guid: f9f6be802bd0fe3448c68a8b6f205bce,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I can''t stand around here when I have other commitments to
+        attend to. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f6be802bd0fe3448c68a8b6f205bce, type: 3}
 --- !u!4 &1888476316 stripped
@@ -78317,6 +80116,23 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 609111344}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Caroline: I''ve only just begun my journey as a mage, but I''m
+        excited to see where it takes me.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: I can''t waste any more time here when I have other commitments
+        to attend to. '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
 --- !u!4 &1949584712 stripped
@@ -78355,9 +80171,9 @@ Transform:
   m_Children:
   - {fileID: 610101285}
   - {fileID: 1505524207}
-  - {fileID: 599515772}
-  - {fileID: 1062709583}
   - {fileID: 89433524}
+  - {fileID: 1062709583}
+  - {fileID: 599515772}
   - {fileID: 895027330}
   - {fileID: 871525534}
   - {fileID: 317149713}
@@ -78490,9 +80306,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -145.75385}
-  m_SizeDelta: {x: -59.999996, y: -351.5077}
+  m_AnchorMax: {x: 1, y: 0.40011123}
+  m_AnchoredPosition: {x: -8.146973, y: -4.1566772}
+  m_SizeDelta: {x: -76.2937, y: -68.3135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958797010
 MonoBehaviour:
@@ -78778,6 +80594,22 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Graham: I''m still learning, but I''m eager to improve my skills.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Uldren: Egron''s life is on the line and I won''t waste any more time
+        here. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
@@ -79300,57 +81132,59 @@ PrefabInstance:
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: dialogueChoicesNeeded
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice1Lines.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice2Lines.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice1Lines.Array.data[0]
-      value: Test 1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice1Lines.Array.data[1]
-      value: abc
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice2Lines.Array.data[0]
-      value: Test 2
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: choice2Lines.Array.data[1]
-      value: 123
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'Testing '
+      value: 'Novice Davina: I may not be an expert yet, but I''m determined to become
+        one.'
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: some
+      value: 'Uldren: I can''t stand around here when I have other commitments to
+        attend to. '
       objectReference: {fileID: 0}
     - target: {fileID: 5436449309682192386, guid: d4d17342014c96842ae633419b8f07a5,
         type: 3}
       propertyPath: dialogueLines.Array.data[2]
-      value: lines
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d17342014c96842ae633419b8f07a5, type: 3}
@@ -88169,26 +90003,37 @@ MonoBehaviour:
   displayName: {fileID: 1649198320}
   dialogueName: Druid Sisters
   dialogueLines:
-  - We
-  - Are
-  - Druid
-  - Sisters
-  dialogueChoicesNeeded: 2
+  - 'Dara: Spirits of the earth and sky, lend us your power as we brew this potion. '
+  - 'Lara: By the power of the ancient ones, let this potion bring healing and restoration.'
+  - 'Fara: As we mix these herbs and brew this potion, may the spirits guide us and
+    bless our work.'
+  - 'Yara: Let the magic of the natural world flow into this cauldron and imbue this
+    potion with its power.'
+  - 'Zara: Sisters, join me in calling upon the energy of the earth and the elements
+    to infuse this potion with their strength.'
+  dialogueChoicesNeeded: 3
   choice1Lines:
-  - ok
-  - and?
+  - "What\u2019s your job in the village?"
+  - 'Druid Sisters: Our job is to maintain the balance of nature in the village and
+    to use our magic to heal and protect our community. We are the guardians of the
+    natural world and the keepers of its secrets.'
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
   choice1cLines: []
   choice2Lines:
-  - niiice
-  - idc
+  - Tell me about the magical tree.
+  - 'Druid Sisters: The magical tree is a powerful and mysterious presence in the
+    village. It is a conduit for the magic of the natural world, and it is our duty
+    to care for and protect it.'
+  - "Druid Sisters: The mages believe it\u2019s the last of its kind, but we are
+    sure there are more, we can feel their power."
   Choice2LinesNeeded: 0
   choice2aLines: []
   choice2bLines: []
   choice2cLines: []
-  choice3Lines: []
+  choice3Lines:
+  - "My friend doesn\u2019t have time for stories, I need to go!"
   Choice3LinesNeeded: 0
   choice3aLines: []
   choice3bLines: []
@@ -88566,6 +90411,28 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueName
       value: Novice Felix & Novice Grace
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: 'Novice Felix: There''s so much to learn, it''s overwhelming at times.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: 'Novice Grace: I know what you mean, but we just have to take it one
+        step at a time.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127204412752641088, guid: aea27ca7a35042c419065833e8daf224,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 'Uldren: I can''t stand around chatting when I have more important things
+        to do. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea27ca7a35042c419065833e8daf224, type: 3}
