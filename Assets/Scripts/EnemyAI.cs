@@ -10,7 +10,7 @@ public class EnemyAI : MonoBehaviour
     public NavMeshAgent navMeshAgent;
     Animator animator;
     [SerializeField] float attackRange = 2f;
-    [SerializeField] float aggroRange = 10f;
+    [SerializeField] float aggroRange = 20f;
     Rigidbody rb;
     Vector3 lookPos;
     int enemyLayerMask;
@@ -21,6 +21,8 @@ public class EnemyAI : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        player = GetComponent<FireballSpell>().gameObject;
         animator.SetBool("Aggro", true);
         lookPos = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
         enemyLayerMask = 1 << LayerMask.NameToLayer("Enemy");
