@@ -14,7 +14,10 @@ public class DialogueEditor : Editor
         SerializedProperty dialogueLinesProperty = serializedObject.FindProperty("dialogueLines");
         SerializedProperty dialogueChoicesNeededProperty = serializedObject.FindProperty("dialogueChoicesNeeded");
 
+        SerializedProperty attackTrigger0Property = serializedObject.FindProperty("attackTrigger0");
+
         SerializedProperty choice1LinesProperty = serializedObject.FindProperty("choice1Lines");
+        SerializedProperty attackTrigger1Property = serializedObject.FindProperty("attackTrigger1");
         SerializedProperty choice1LinesNeededProperty = serializedObject.FindProperty("Choice1LinesNeeded");
         SerializedProperty choice1aLinesProperty = serializedObject.FindProperty("choice1aLines");
         SerializedProperty choice1bLinesProperty = serializedObject.FindProperty("choice1bLines");
@@ -36,6 +39,7 @@ public class DialogueEditor : Editor
         EditorGUILayout.PropertyField(displayTextProperty);
         EditorGUILayout.PropertyField(displayNameProperty);
         EditorGUILayout.PropertyField(dialogueLinesProperty, true);
+        EditorGUILayout.PropertyField(attackTrigger0Property);
         EditorGUILayout.PropertyField(dialogueChoicesNeededProperty);
 
         int dialogueLinesNeeded = dialogueChoicesNeededProperty.intValue;
@@ -43,6 +47,7 @@ public class DialogueEditor : Editor
         if (dialogueLinesNeeded >= 1)
         {
             EditorGUILayout.PropertyField(choice1LinesProperty, true);
+            EditorGUILayout.PropertyField(attackTrigger1Property);
             EditorGUILayout.PropertyField(choice1LinesNeededProperty);
 
             int choice1LinesNeeded = choice1LinesNeededProperty.intValue;
