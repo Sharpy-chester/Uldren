@@ -30658,8 +30658,10 @@ MonoBehaviour:
   - "Troublesome Trey: Save your friend, huh? Well, we can't have that. What\u2019s
     in it for us?"
   dialogueChoicesNeeded: 2
+  attackTrigger0: 0
   choice1Lines:
   - I'll fight you if I have to. I won't let you stand in my way.
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -35078,7 +35080,9 @@ MonoBehaviour:
   - 'Uldren: I guess, I will have to fight you! '
   - 'Mountain Guard: GHUUUUR!!! '
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -35221,7 +35225,7 @@ PrefabInstance:
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce,
         type: 3}
@@ -35719,8 +35723,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1958797009}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1533402963}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -36620,10 +36624,12 @@ MonoBehaviour:
   - 'Haldar: We hope your journey has been a pleasant one so far. Is there anything
     we can do to make it better?'
   dialogueChoicesNeeded: 2
+  attackTrigger0: 0
   choice1Lines:
   - 'I need some help with directions to the Horned Beast. '
   - 'Gwindor: Find Alanis of Thalor near the big tree in the middle of the village,
     she will be able to help you. '
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -43557,7 +43563,9 @@ MonoBehaviour:
   - 'Lirazel: Is there anything we can do for you during your stay here?'
   - 'Uldren: I have no time to waste!'
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -50874,7 +50882,9 @@ MonoBehaviour:
   dialogueLines:
   - 'Group of elves: shhh, we are listening to Alanis of Thalor.'
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -51037,14 +51047,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367823543}
-  m_LocalRotation: {x: -0, y: 0.44031683, z: -0, w: -0.89784247}
-  m_LocalPosition: {x: 41.71983, y: -38.751877, z: 59.189495}
-  m_LocalScale: {x: 47.034462, y: 18.9001, z: 8.954}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -144, y: 130.75815, z: -273.46002}
+  m_LocalScale: {x: 141.10338, y: 56.700302, z: 26.862}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1924534812}
-  m_Father: {fileID: 317149713}
-  m_RootOrder: 13
+  m_Father: {fileID: 1949918277}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1367823545
 MonoBehaviour:
@@ -74805,6 +74815,7 @@ MonoBehaviour:
   dialogueLines:
   - 'Alanis of Thalor: Welcome to our fair land. How may we be of assistance?'
   dialogueChoicesNeeded: 3
+  attackTrigger0: 0
   choice1Lines:
   - I need to get to the Horned Beast.
   - "Alanis of Thalor: That won\u2019t be that easy. His lair is all the way on the
@@ -74814,6 +74825,7 @@ MonoBehaviour:
   - 'Alanis of Thalor: If you want to get to the beast you will have to defeat the
     golem. '
   - "Uldren: That\u2019s all I need to know, thank you!"
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -76280,7 +76292,9 @@ MonoBehaviour:
   - 'Isolde: We hope your stay here is a pleasant one.'
   - 'Uldren: I can''t stand around chatting when Egron needs my help. '
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -76495,7 +76509,9 @@ MonoBehaviour:
   - 'Gia: We hope you have a wonderful time exploring all it has to offer.'
   - "Uldren: Egron's in trouble and I won't rest until he\u2019s safe. "
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -78085,7 +78101,9 @@ MonoBehaviour:
     have some truly unique and powerful effects.'
   - 'Uldren: I won''t let Egron down. I have to go save them now. '
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -80577,6 +80595,7 @@ Transform:
   - {fileID: 895027330}
   - {fileID: 871525534}
   - {fileID: 317149713}
+  - {fileID: 1367823544}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -81728,10 +81747,12 @@ MonoBehaviour:
     brings you here? '
   - 'Faehrin: We are here to help, so don''t hesitate to ask if you need anything. '
   dialogueChoicesNeeded: 2
+  attackTrigger0: 0
   choice1Lines:
   - 'I need some help with directions to the Horned Beast. '
   - 'Elrond: Find Alanis of Thalor near the big tree in the middle of the village,
     she will be able to help you. '
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -83491,7 +83512,9 @@ MonoBehaviour:
   - 'Rhiannon: We would be happy to help in any way we can.'
   - 'Uldren: I have no time to waste!'
   dialogueChoicesNeeded: 0
+  attackTrigger0: 0
   choice1Lines: []
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
@@ -90424,11 +90447,13 @@ MonoBehaviour:
   - 'Zara: Sisters, join me in calling upon the energy of the earth and the elements
     to infuse this potion with their strength.'
   dialogueChoicesNeeded: 3
+  attackTrigger0: 0
   choice1Lines:
   - "What\u2019s your job in the village?"
   - 'Druid Sisters: Our job is to maintain the balance of nature in the village and
     to use our magic to heal and protect our community. We are the guardians of the
     natural world and the keepers of its secrets.'
+  attackTrigger1: 0
   Choice1LinesNeeded: 0
   choice1aLines: []
   choice1bLines: []
