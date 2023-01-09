@@ -8,12 +8,18 @@ public class Health : MonoBehaviour
     [SerializeField] float maxHealth = 10;
     float health = 10;
     RespawnManager respawnManager;
+    bool isDrogthor = false;
 
 
     void Start()
     {
         health = maxHealth;
         respawnManager = FindObjectOfType<RespawnManager>();
+        Drogthor drogthor = FindObjectOfType<Drogthor>();
+        if (drogthor.gameObject == gameObject)
+        {
+            drogthor.endingCutscene.SetActive(true);
+        }
     }
 
     void CheckHealth()

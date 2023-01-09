@@ -11,6 +11,8 @@ public class CutsceneDialogueSys : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogueTxt;
     [SerializeField] AudioSource audioSource;
     [SerializeField] bool startOnStart = false;
+    [SerializeField] bool isEndingCutscene = false;
+    [SerializeField] GameObject endingCutscene;
 
     private void Start()
     {
@@ -20,9 +22,25 @@ public class CutsceneDialogueSys : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        if (!startOnStart)
+        {
+            StartCoroutine(StartCutscene());
+        }
+    }
+
     public IEnumerator StartCutscene()
     {
         dialogueTxt.transform.parent.gameObject.SetActive(true);
+        if (isEndingCutscene)
+        {
+            endingCutscene.SetActive(true);
+            Destroy(GameObject.Find("Prince Drogthor of the underworld"));
+            Camera.main.transform.parent = null;
+            Destroy(FindObjectOfType<ThirdPersonController>().gameObject);
+            Destroy(GameObject.Find("Egron the changeling"));
+        }
         for (int i = 0; i < dialogue.dialogue.Length; i++)
         {
             dialogueTxt.text = dialogue.dialogue[i];

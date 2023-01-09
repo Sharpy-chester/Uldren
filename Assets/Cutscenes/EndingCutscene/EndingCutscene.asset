@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbe318fb1e96754e96f4aeae0141e37, type: 3}
+  m_Name: EndingCutscene
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Egron\r: Sorry Uldren, stand back. This is the only way"
+  - "Uldren\r: What are you talking about Egron?"
+  - "Egron\r: There\u2019s a way to win, but please, just try and get out of the
+    way. Its risky but it\u2019s the only way we can win"
+  - "Uldren: \rI don\u2019t like the sound of this"
+  - "Uldren\r: Whatever you\u2019re gonna do, now is your best shot"
+  - "Uldren\r: Egron! Are you okay? What was that?"
+  - "Uldren\r: Hey, Egron. You did it\u2026 But at what cost\u2026"
+  - "Egron\r: I\u2019m sorry Uldren. It was the only way"
+  - "Uldren\r: Egron\u2026"
+  - "Egron\r: I used up my life force to do that. It\u2019s the only thing I learned
+    at the academy that could save you. I'm sorry."
+  - "Uldren\r: No\u2026 Surely there\u2019s a way to save you"
+  - "Egron\r: Thanks Uldren. You\u2019ve always been at my side. I just wish I could
+    have conquered the world with you. But yeah. Do it without me. Don't disappoint."
+  - "Uldren\r: I won't. I\u2019ll bring your memory with me on my adventures. I\u2019ll
+    never forget you friend"
+  - "Egron\r: Grow\u2026 strong\u2026 and remember\u2026 I will always be with you"
+  timeUntilNextDialogue:
+  - 2
+  - 2
+  - 5
+  - 2
+  - 4
+  - 3
+  - 4
+  - 3
+  - 1
+  - 5
+  - 2
+  - 5
+  - 3
+  - 3
+  voiceOvers: []
