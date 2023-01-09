@@ -15,10 +15,12 @@ public class FireballSpell : MonoBehaviour
     int playerLayerMask;
     int raycastLayerMask;
     Camera camera;
+    Animator animator;
 
     void Start()
     {
         camera = Camera.main;
+        animator = GetComponent<Animator>();
         playerLayerMask = 1 << LayerMask.NameToLayer("Character");
         raycastLayerMask = ~playerLayerMask;
     }
@@ -31,7 +33,9 @@ public class FireballSpell : MonoBehaviour
             if(Mouse.current.leftButton.isPressed)
             {
                 currentCooldown = 0;
-                
+
+                animator.Play("FireAttack");
+
                 if (Physics.Raycast(camera.transform.position, camera.transform.forward, out RaycastHit hit, Mathf.Infinity, raycastLayerMask))
                 {
                     Vector3 direction = Vector3.Normalize(hit.point - firePos.position);
