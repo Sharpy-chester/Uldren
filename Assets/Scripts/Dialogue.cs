@@ -18,10 +18,10 @@ public class Dialogue : MonoBehaviour
 
     [SerializeField] string[] dialogueLines;
     [SerializeField] int dialogueChoicesNeeded = 0;
-    [SerializeField] bool attackTrigger0;
+    [SerializeField] bool attackTrigger0 = false;
 
     [SerializeField] string[] choice1Lines;
-    [SerializeField] bool attackTrigger1;
+    [SerializeField] bool attackTrigger1 = false;
     [SerializeField] int Choice1LinesNeeded = 0;
     [SerializeField] string[] choice1aLines;
     [SerializeField] string[] choice1bLines;
@@ -88,6 +88,10 @@ public class Dialogue : MonoBehaviour
         if (choice1Lines.Length < 1)
         {
             StopDialogue();
+            if (attackTrigger0)
+            {
+                GiveAggro();
+            }
             yield break;
         }
 
@@ -143,6 +147,10 @@ public class Dialogue : MonoBehaviour
         if (choice1aLines.Length < 1)
         {
             StopDialogue();
+            if(attackTrigger1)
+            {
+                GiveAggro();
+            }
             yield break;
         }
 
@@ -449,5 +457,13 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(interact.ResetInteracted());
         player.enabled = true;
         displayText.transform.parent.gameObject.SetActive(false);
+    }
+
+    void GiveAggro()
+    {
+        gameObject.AddComponent<Health>();
+        gameObject.AddComponent<EnemyAI>();
+        Destroy(this);
+        Destroy(GetComponent<Interact>());
     }
 }
