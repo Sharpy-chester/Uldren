@@ -9,16 +9,17 @@ public class Health : MonoBehaviour
     float health = 10;
     RespawnManager respawnManager;
     bool isDrogthor = false;
+    Drogthor drogthor;
 
 
     void Start()
     {
         health = maxHealth;
         respawnManager = FindObjectOfType<RespawnManager>();
-        Drogthor drogthor = FindObjectOfType<Drogthor>();
+        drogthor = FindObjectOfType<Drogthor>();
         if (drogthor.gameObject == gameObject)
         {
-            drogthor.endingCutscene.SetActive(true);
+            isDrogthor = true;
         }
     }
 
@@ -28,6 +29,10 @@ public class Health : MonoBehaviour
         {
             //kill
             print(gameObject.name + " died");
+            if(isDrogthor)
+            {
+                drogthor.endingCutscene.SetActive(true);
+            }
             if (GetComponent<EnemyAI>())
             {
                 Destroy(GetComponent<EnemyAI>());

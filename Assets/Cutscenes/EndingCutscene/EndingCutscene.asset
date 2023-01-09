@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EndingCutscene
   m_EditorClassIdentifier: 
   dialogue:
-  - "Egron\r: Sorry Uldren, stand back. This is the only way"
+  - "Egron\r- Sorry Uldren, stand back. This is the only way"
   - "Uldren\r: What are you talking about Egron?"
   - "Egron\r: There\u2019s a way to win, but please, just try and get out of the
     way. Its risky but it\u2019s the only way we can win"
@@ -36,7 +36,7 @@ MonoBehaviour:
   - 2
   - 5
   - 2
-  - 4
+  - 10
   - 3
   - 4
   - 3
