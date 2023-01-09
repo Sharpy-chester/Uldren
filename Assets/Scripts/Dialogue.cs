@@ -18,6 +18,7 @@ public class Dialogue : MonoBehaviour
 
     [SerializeField] string[] dialogueLines;
     [SerializeField] int dialogueChoicesNeeded = 0;
+    [SerializeField] bool[] attackTriggers = new bool[12];
 
     [SerializeField] string[] choice1Lines;
     [SerializeField] int Choice1LinesNeeded = 0;

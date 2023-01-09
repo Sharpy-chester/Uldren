@@ -14,6 +14,8 @@ public class DialogueEditor : Editor
         SerializedProperty dialogueLinesProperty = serializedObject.FindProperty("dialogueLines");
         SerializedProperty dialogueChoicesNeededProperty = serializedObject.FindProperty("dialogueChoicesNeeded");
 
+        SerializedProperty attackTriggersProperty = serializedObject.FindProperty("attackTriggers");
+
         SerializedProperty choice1LinesProperty = serializedObject.FindProperty("choice1Lines");
         SerializedProperty choice1LinesNeededProperty = serializedObject.FindProperty("Choice1LinesNeeded");
         SerializedProperty choice1aLinesProperty = serializedObject.FindProperty("choice1aLines");
@@ -37,6 +39,7 @@ public class DialogueEditor : Editor
         EditorGUILayout.PropertyField(displayNameProperty);
         EditorGUILayout.PropertyField(dialogueLinesProperty, true);
         EditorGUILayout.PropertyField(dialogueChoicesNeededProperty);
+        EditorGUILayout.PropertyField(attackTriggersProperty);
 
         int dialogueLinesNeeded = dialogueChoicesNeededProperty.intValue;
 
