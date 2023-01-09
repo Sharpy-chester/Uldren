@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class RespawnManager : MonoBehaviour
 {
-    Vector3 respawnPoint;
-    [SerializeField] Transform player;
-
-    void Start()
-    {
-        respawnPoint = player.position;
-    }
+    [SerializeField] Vector3 respawnPoint;
+    [SerializeField] GameObject player;
 
     public void SetRespawnPoint(Vector3 position)
     {
@@ -19,7 +14,10 @@ public class RespawnManager : MonoBehaviour
 
     public void Respawn()
     {
-        player.position = respawnPoint;
-        player.GetComponent<Health>().IncreaseHealth(1000);
+        player.transform.Find("PlayerArmature").GetComponent<CharacterController>().enabled = false;
+        player.transform.position = respawnPoint;
+        player.transform.Find("PlayerArmature").position = respawnPoint;
+        player.transform.Find("PlayerArmature").GetComponent<Health>().IncreaseHealth(1000);
+        player.transform.Find("PlayerArmature").GetComponent<CharacterController>().enabled = true;
     }
 }

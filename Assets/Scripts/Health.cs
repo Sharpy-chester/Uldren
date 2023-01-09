@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             //kill
-            print(gameObject.name + " died");
+            
             if(isDrogthor)
             {
                 drogthor.endingCutscene.SetActive(true);
@@ -43,6 +43,7 @@ public class Health : MonoBehaviour
             }
             if (GetComponent<ThirdPersonController>())
             {
+                
                 respawnManager.Respawn();
             }
         }
