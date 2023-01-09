@@ -10541,6 +10541,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95842207964945976, guid: 3c9c85e47d53d1f4aaa97330d98c0680,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 95842207964945976, guid: 3c9c85e47d53d1f4aaa97330d98c0680,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9d00968f9aaca7b439ec63fb72f4c5cd, type: 2}
+    - target: {fileID: 95842207964945976, guid: 3c9c85e47d53d1f4aaa97330d98c0680,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9c85e47d53d1f4aaa97330d98c0680, type: 3}
 --- !u!4 &317149713 stripped
@@ -10562,6 +10577,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prince Drogthor of the underworld
+--- !u!114 &317149717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159784784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c0c3e70d587544f90d0e9c93bb2473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 609111344}
+  displayName: {fileID: 1649198320}
+  dialogueName: 
+  dialogueLines:
+  - 'Uldren: Finally I found you, you ugly beast! '
+  - "Drogthor: Why does someone have to annoy me when I\u2019m about to eat?! "
+  - 'Egron: Uldren, is that you? How did you get here? '
+  - "Uldren: I was scared you wouldn\u2019t be alive anymore, I\u2019m glad I made
+    it on time. "
+  - 'Egron: Why did you come here? You have to run Uldren, he is too powerful, save
+    yourself! '
+  - 'Drogthor: SILENCE HUMANS! '
+  - "Drogthor: It\u2019s the first time that food came to me, I could get used to
+    this. "
+  - 'Uldren: Your time of terrorising this world has come to its end! Now you die! '
+  dialogueChoicesNeeded: 0
+  attackTrigger0: 0
+  choice1Lines: []
+  attackTrigger1: 0
+  Choice1LinesNeeded: 0
+  choice1aLines: []
+  choice1bLines: []
+  choice1cLines: []
+  choice2Lines: []
+  Choice2LinesNeeded: 0
+  choice2aLines: []
+  choice2bLines: []
+  choice2cLines: []
+  choice3Lines: []
+  Choice3LinesNeeded: 0
+  choice3aLines: []
+  choice3bLines: []
+  choice3cLines: []
+--- !u!114 &317149718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159784784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8faa160b43496849b999bb04ae7d21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &318401279
 GameObject:
   m_ObjectHideFlags: 0
@@ -35225,7 +35297,7 @@ PrefabInstance:
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce,
         type: 3}
@@ -35723,8 +35795,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1958797009}
-  m_Father: {fileID: 1533402963}
-  m_RootOrder: 14
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -45006,19 +45078,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1737823
+      value: 35.9
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 220.15
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 295.5
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.60996
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -45026,7 +45098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7924322
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -45038,12 +45110,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 104.827
       objectReference: {fileID: 0}
     - target: {fileID: 495398, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9513408, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d5535bed4d1d6a64db31cad2dfd62d46, type: 2}
     - target: {fileID: 13783824, guid: 3f42b29f9f09e0e40b05df7c984384f1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -51049,7 +51125,7 @@ Transform:
   m_GameObject: {fileID: 1367823543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -144, y: 130.75815, z: -273.46002}
-  m_LocalScale: {x: 141.10338, y: 56.700302, z: 26.862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1924534812}
@@ -51070,7 +51146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 937142051166714788}
   teleportLocation: {fileID: 1924534811}
-  dialogue: {fileID: 722609510}
+  dialogue: {fileID: 317149717}
   collider: {fileID: 1367823546}
   bandits:
   - {fileID: 1533402965}
@@ -51090,8 +51166,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 68.65465, y: 25.5307, z: 69.92584}
+  m_Center: {x: 4.194832, y: -0.20587158, z: -4.987152}
 --- !u!1 &1372700027
 GameObject:
   m_ObjectHideFlags: 0
@@ -79869,7 +79945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924534811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0235, y: -0.1414, z: -0.1252}
+  m_LocalPosition: {x: 15.51, y: -0.1414, z: 10.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102549,17 +102625,17 @@ PrefabInstance:
     - target: {fileID: 937142050258548231, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 478.4
+      value: 299.08
       objectReference: {fileID: 0}
     - target: {fileID: 937142050258548231, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 142.2
+      value: 267
       objectReference: {fileID: 0}
     - target: {fileID: 937142050258548231, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 527.9
+      value: 579.66
       objectReference: {fileID: 0}
     - target: {fileID: 937142050258548231, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
@@ -102604,7 +102680,7 @@ PrefabInstance:
     - target: {fileID: 1277898649575540007, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0980377
+      value: 3.098053
       objectReference: {fileID: 0}
     - target: {fileID: 1277898649575540007, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
@@ -102619,7 +102695,7 @@ PrefabInstance:
     - target: {fileID: 8152024908302397590, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0980377
+      value: 3.098053
       objectReference: {fileID: 0}
     - target: {fileID: 8152024908302397590, guid: e14f682c1e9352a47a31f3d234e9928e,
         type: 3}
