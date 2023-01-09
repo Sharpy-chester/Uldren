@@ -11,7 +11,6 @@ public class EnemyAI : MonoBehaviour
     Animator animator;
     [SerializeField] float attackRange = 2f;
     [SerializeField] float aggroRange = 20f;
-    Rigidbody rb;
     Vector3 lookPos;
     int enemyLayerMask;
     int raycastLayerMask;
@@ -21,9 +20,9 @@ public class EnemyAI : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
-        player = FindObjectOfType<FireballSpell>().gameObject;
+        player = FindObjectOfType<FireballSpell>().transform.Find("PlayerCameraRoot").gameObject;
         animator.SetBool("Aggro", true);
-        lookPos = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
+        lookPos = transform.Find("Root").Find("Hips").position;
         enemyLayerMask = 1 << LayerMask.NameToLayer("Enemy");
         raycastLayerMask = ~enemyLayerMask;
     }
@@ -41,7 +40,7 @@ public class EnemyAI : MonoBehaviour
         {
             if (hit.transform.CompareTag("Player") && Vector3.Distance(lookPos, hit.transform.position) < aggroRange)
             {
-                
+                print(hit.transform.gameObject.name);
                 animator.SetBool("SeePlayer", true);
                 float distance = Vector3.Distance(lookPos, player.transform.position);
                 if (distance < attackRange)
@@ -60,8 +59,8 @@ public class EnemyAI : MonoBehaviour
                 animator.SetBool("SeePlayer", false);
             }
         }
-        animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
-        print(navMeshAgent.velocity.magnitude);
+        animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);/*
+        print(navMeshAgent.velocity.magnitude);*/
     }
 
     void Attack()
